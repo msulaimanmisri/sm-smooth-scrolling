@@ -1,13 +1,13 @@
 <?php
 
 /**
- * Plugin Name: SM Smooth Scrolling
- * Plugin URI: https://github.com/msulaimanmisri/sm-smooth-scrolling
- * Description: Make your WordPress wheel effect smooth!
+ * Plugin Name: SM Custom Analytics
+ * Plugin URI: https://github.com/msulaimanmisri/sm-custom-analytics
+ * Description: work in progress
  * Version: 1.0
  * Author: Sulaiman Misri
  * Author URI: https://github.com/msulaimanmisri
- * Text Domain: sm-smooth-scrolling
+ * Text Domain: sm-custom-analytics
  * Domain Path: /languages
  * Tested up to: 6.1.1
  * License: GPLv2 or later
@@ -18,4 +18,4 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-require 'Controller/EnqueueController.php';
+require 'Controller/AnalyticsController.php';
