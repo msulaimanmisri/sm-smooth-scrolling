@@ -17,3 +17,5 @@
 if (!defined('ABSPATH')) {
     exit;
 }
+
+require 'Controller/EnqueueController.php';
